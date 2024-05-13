@@ -7,3 +7,7 @@ Integrantes:
 Gregory Rodriguez
 Jonathan Galarza
 Alejandro Risso
+
+para descargar el repositorio desde la consola de Git
+
+git clone https://github.com/kniball4726/FullstackCodoaCodoArg.git
