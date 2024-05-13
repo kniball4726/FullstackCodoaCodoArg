@@ -8,6 +8,12 @@ Gregory Rodriguez
 Jonathan Galarza
 Alejandro Risso
 
-para descargar el repositorio desde la consola de Git
+Para descargar el repositorio desde la consola de GitHub
 
 git clone https://github.com/kniball4726/FullstackCodoaCodoArg.git
+
+cd FullstackCodoaCodoArg/
+
+abrir index.html
+
+desplegar en el navegador
