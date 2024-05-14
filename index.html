@@ -18,8 +18,8 @@
             <header id="header">
                 <nav id="nav">
                      <ul id="ul">
-                        <li for="" class="brand">
-                            <a href=""><img src="./src/grupo1.png" alt="grupo1"></a>
+                        <li class="brand">
+                            <img src="./src/grupo1.png" alt="grupo1">
                         </li>
                         <li><a href="index.html">Inicio</a></li>
                         <li><a href="./pages/nosotros.html">Nosotros</a></li>
@@ -29,13 +29,23 @@
                 </nav>
             </header>
             <main id="main">
-                <aside id="aside">Aside</aside>
-                <article id="principal">
-                    <section>Section 1</section>
-                    <section>Section 2</section>
-                    <section>Section 3</section>
-                </article>
+                <aside id="aside">
+                    <h2>Alumnos</h2>
+                    <div id="alumnos"></div>
+                </aside>
+                <div class="form">
+                    <h2>Agregar Alumnos</h2>
+                        <form id="grupoForm">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" required>
+                            <button id="bagregar" onclick="agregarAlumnos()">Agregar</button>
+                        </form>
+                    <button id="crearGrupo" onclick="grupoVisualizacion()">Crear Grupos</button>
+                </div>
             </main>
+            
             <footer id="footer">
                 <div id="containerfoot">
                     <div id="footer-rows">
@@ -70,5 +80,6 @@
                 </div>
             </footer>
         </div>
+
     </body>
 </html>
