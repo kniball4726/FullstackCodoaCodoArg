@@ -1,21 +1,18 @@
 const agregarAlumnos = () => {
     var participantes = []
-    let nombre = document.getElementById('nombre').value;
-    let email = document.getElementById('email').value;
-    participantes.push({ nombre, email });
-    console.log(participantes);
-    grupoForm.reset();
+    const nombre = document.getElementById('nombre').value;
+    const apellido = document.getElementById('apellido').value;
+    const email = document.getElementById('email').value;
 
-    participantes.map(item=>{
-        //Accedemos a su contenido
-          participantes +=`<tr>
-          <td>${item.nombre}</td>
-          <td>${item.email}</td>
-          </tr>`
-        })
+    participantes.push({ nombre, apellido, email });
+    localStorage.setItem('agregar', JSON.stringify(participantes));
+    grupoForm.reset();
+    console.log(localStorage.agregar);
+
         //Dibujamos la informacion
-        document.getElementById("alumnos").innerHTML = participantes
+        document.getElementById("alumnos").innerHTML = localStorage.agregar.apellido;
 }
+
 /*
 document.addEventListener("DOMContentLoaded", function() {
     const grupoForm = document.getElementById('grupoForm');
