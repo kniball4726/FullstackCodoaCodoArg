@@ -204,7 +204,7 @@
 }
 
 #grupoForm{
-    width: 25%;
+    width: 70%;
     padding: 30px 15px;
     display: flex;
     flex-wrap: wrap;
@@ -215,7 +215,7 @@
 }
 
 #aside{
-    width: auto;
+    width: 30%;
     margin-left: 150px;
 }
 
@@ -223,27 +223,26 @@
     list-style: none;
 }
 
-#aside ul li {
-    display: block;
-    transition: all .2s ease;
+#seccion{
+    width: 80%;
+    margin: 0 auto;
 }
 
-
-#aside ul li a{
-    padding: 30px;
-    margin: 30px;
-    display: block;
-    text-decoration: none;
-    color: #ccc;
-    background: #1f53c5;
-    transition: all .1s ease;
-    border-radius: 20px;
+article{
+    width: 100%;
+    margin: 0 auto;
+    text-justify:auto;
+    padding-bottom: 20px;
+    font-size: 30px;
 }
 
-#aside ul li a:hover{
-    color: #fff;
+#seccion article p{
+    text-align: justify;
+    text-justify: inter-word;
 }
+
 
 .sub1{
     display: none;
 }
+
