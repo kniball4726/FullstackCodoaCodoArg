@@ -204,7 +204,7 @@
 }
 
 #grupoForm{
-    width: 70%;
+    width: 60%;
     padding: 30px 15px;
     display: flex;
     flex-wrap: wrap;
@@ -242,7 +242,7 @@ article{
 }
 
 
-.sub1{
+#nav ul ul{
     display: none;
 }
 
