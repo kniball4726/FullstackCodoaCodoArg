@@ -1,6 +1,8 @@
 @media (max-width: 480px){
     
 *{
+    
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing:border-box;
@@ -196,6 +198,9 @@
     text-decoration: none;
 }
 
+.marca{
+    color: #fff;
+}
 #grupoForm{
     width: 60%;
     padding: 30px 15px;
@@ -747,6 +752,8 @@ article{
 /*PC + TV*/
 @media (min-width: 1200px){
     *{
+        
+        font-family: Arial, Helvetica, sans-serif;
         margin: 0;
         padding: 0;
         box-sizing:border-box;
@@ -789,12 +796,14 @@ article{
         text-decoration: underline;
     }
     
+    
     #bagregar, #crearGrupo, #btEnviar{
-        width: 100%;
+        width: 90%;
+        align-content: center;
         padding: 12px;
         background: #1f53c5;
         border: none;
-        margin: 16px;
+        margin: 10px auto;
         border-radius: 4px;
         color: #bbbbbb;;
         font-size: 16px;
@@ -804,14 +813,18 @@ article{
     
     #bagregar:hover{
         color: white;
+        width: 92%;
     }
+    
     
     #crearGrupo:hover{
         color: white;
+        width: 92%;
     }
     
     #btEnviar:hover{
         color: white;
+        width: 92%;
     }
     
     #nombre, #apellido, #email, #consulta{
@@ -869,12 +882,12 @@ article{
         margin: auto;
         text-decoration: none;
         color: gray;
-        transition: all .1s ease;
+        transition: all .3s ease;
     }
     
     #nav ul li a:hover{
         color: #000;
-        font-size: 24px;
+        font-size: 35px;
     }
     
     .group {
@@ -904,7 +917,6 @@ article{
     }
     
     #footer-links ul li {
-        font-family: Arial, Helvetica, sans-serif;;
         font-size: 30px;
         padding: 10px;
         margin: auto;
@@ -929,9 +941,14 @@ article{
     
     #footer-links ul li a:hover {
         background: #1f53c5;
-        padding-left: 6px;
+        padding-left: 20px;
         color: #fff;
         text-decoration: none;
+    }
+    .marca{
+        padding: 10px;
+        margin: 10px;
+        color: #fff;
     }
     
     #grupoForm{
@@ -983,6 +1000,4 @@ article{
         display: none;
     }
     
-}
-
 }
