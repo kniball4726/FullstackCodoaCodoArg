@@ -169,7 +169,7 @@ color: black;
     padding: 14px;
 }
 
-#nombre, #apellido, #email, #consulta, #dni{
+#nombre, #apellido, #email, #consulta, #dni, #user, #pasw{
     width: 100%;
     background: #24303c;
     padding: 10px;
@@ -473,12 +473,13 @@ article h2{
     }
     
     .navigation ul{
+        
         list-style: none;
     }
     
     .header .navigation ul li{
         float: left;
-        position: relative;
+        position: absolute;
     }
     
     .header .navigation ul li a{
@@ -487,6 +488,7 @@ article h2{
         text-decoration: none;
         padding: 20px;
         display: block;
+         
     }
     
     .header .navigation ul li a:hover{
@@ -524,13 +526,17 @@ article h2{
     
     #toggle,
     .header label{
-        display: none;
         cursor: pointer;
+    }
+
+    #toggle{
+        display: none;
     }
     
     .menu{
-        width: 45px;
+        width: 40px;
         height: 35px;
+        color:#fff;
     }
     
         
@@ -601,7 +607,7 @@ article h2{
             padding: 14px;
         }
         
-        #nombre, #apellido, #email, #consulta, #dni{
+        #nombre, #apellido, #email, #consulta, #dni, #user, #pasw{
             width: 100%;
             color: #fff;
             background: #24303c;
@@ -996,7 +1002,7 @@ article h2{
             border: none;
             margin: 10px auto;
             border-radius: 4px;
-            color: #bbbbbb;;
+            color: #bbbbbb;
             font-size: 16px;
             cursor: pointer;
             transition: all .2s ease;
@@ -1018,7 +1024,7 @@ article h2{
             padding: 14px;
         }
         
-        #nombre, #apellido, #email, #consulta, #dni{
+        #nombre, #apellido, #email, #consulta, #dni, #user, #pasw{
             width: 100%;
             color: #fff;
             background: #24303c;
@@ -1438,7 +1444,7 @@ body{
         padding: 14px;
     }
     
-    #nombre, #apellido, #email, #consulta, #dni{
+    #nombre, #apellido, #email, #consulta, #dni, #user, #pasw{
         width: 100%;
         color: #fff;
         background: #24303c;
