@@ -17,3 +17,7 @@ cd FullstackCodoaCodoArg/
 abrir index.html
 
 desplegar en el navegador
+
+proyecto desplegado en vercel
+
+https://alumnapp.vercel.app
